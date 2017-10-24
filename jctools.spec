@@ -6,7 +6,7 @@
 
 Name:          %{?scl_prefix}jctools
 Version:       1.2.1
-Release:       3.1%{?dist}
+Release:       4.1%{?dist}
 Summary:       Java Concurrency Tools for the JVM
 License:       ASL 2.0
 URL:           http://jctools.github.io/JCTools/
@@ -112,6 +112,9 @@ done
 %license LICENSE
 
 %changelog
+* Mon Aug 07 2017 Marek Skalický <mskalick@redhat.com> - 1.2.1-4.1
+- Rebuild for rh-maven35 dependency removal
+
 * Mon Jun 26 2017 Marek Skalický <mskalick@redhat.com> - 1.2.1-3.1
 - Disable tests
 
